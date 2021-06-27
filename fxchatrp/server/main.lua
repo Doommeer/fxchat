@@ -59,7 +59,7 @@ RegisterCommand('mp', function(source, args, rawCommand)
 
 		local name = player:Player().getName(source)
 
-		local nombre =  player:Player().getName(id)
+--		local nombre =  player:Player().getName(id)
 	
 --		local characterName = GetCharacterName(source)
 	
@@ -89,7 +89,7 @@ RegisterCommand('mp', function(source, args, rawCommand)
 			
 		else
 
-			TriggerClientEvent('fx:notification', source, "Este ID no está conectado.")
+			TriggerClientEvent('fx:showNotification', source, "Este ID no está conectado.")
 	
 		end
 		
